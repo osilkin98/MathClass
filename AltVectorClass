@@ -1,3 +1,5 @@
+#This isn't even anything yet
+
 class Vector(object):
     def __init__(self, coordinates):
         try:
