@@ -4,6 +4,7 @@ import time
 from decimal import *
 getcontext().prec=30
 
+#HAVEN'T TESTED THIS AT ALL
 def function_two(x):
   """
   Takes in an x value
