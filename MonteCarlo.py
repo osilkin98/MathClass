@@ -2,7 +2,6 @@ import math
 import random
 import time
 from decimal import *
-from matplotlib import pyplot
 getcontext().prec=30
 
 def function_two(x):
