@@ -1,3 +1,14 @@
+import math
+import random
+
+def function_two(x):
+  """
+  Takes in an x value
+  Returns 2x^2 + 3
+  """
+  x = Decimal(x)
+  return Decimal(2) * (x ** 2) + Decimal(2)
+
 def monte_carlo_one(function, a, b, numberOfseconds):
   time_0 = time.clock()
   pointsUnder = Decimal(0)
